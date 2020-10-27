@@ -19,7 +19,7 @@ Try it ! &rArr; [**Alternative Alert**](https://aldyrifaldi.github.io/Alternativ
 ##### Alternative Alert (MIN Version)
     https://cdn.jsdelivr.net/gh/aldyrifaldi/Alternative-Alert@v0.1-alpha/js/alt-alert.min.js
 
-## Examples
+## Examples	
 The most basic message
 ```javascript
 Alt.alternative({title:"Hello World"})
