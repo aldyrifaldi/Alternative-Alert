@@ -3,7 +3,7 @@ Other way to create a beautiful alert with `Alternative Alert`.
 
 Try it ! &rArr; [**Alternative Alert**](https://aldyrifaldi.github.io/Alternative-Alert)
 
-# Instalation
+## Instalation
 ### CSS
 ##### 	Bootstrap 4 Latest
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -19,7 +19,7 @@ Try it ! &rArr; [**Alternative Alert**](https://aldyrifaldi.github.io/Alternativ
 ##### Alternative Alert (MIN Version)
     https://cdn.jsdelivr.net/gh/aldyrifaldi/Alternative-Alert@v0.1-alpha/js/alt-alert.min.js
 
-# Examples
+## Examples
 The most basic message
 ```javascript
 Alt.alternative({title:"Hello World"})
@@ -47,7 +47,7 @@ Alt.alternative({
 ```
 [Go here to see more details documentation](https://aldyrifaldi.github.io/Alternative-Alert "Go here to see more details documentation")
 
-# Browser Support
+## Browser Support
 | Chrome  |Firefox   | IE11  | Edge  | Safari   | Opera  |
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 |  	&#10003; | 	&#10003;  | 	&#10003;  | 	&#10003;  | 	&#10003;  | 	&#10003;  |
