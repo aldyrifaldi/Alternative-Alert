@@ -137,7 +137,7 @@
             </div>
             <div class="col-md-6 d-flex align-items-center justify-content-center col-sm-12 text-center" style="border-right: 2px solid black;">
                 <div class="form-group">
-                    <button type="button" onclick="return Alt.alternative({status:'loading'})" class="btn btn-primary">Click Me!</button>
+                    <button type="button" onclick="return Alt.alternative({status:'loading',outsideClick:true})" class="btn btn-primary">Click Me!</button>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
@@ -212,11 +212,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.3/lottie.min.js" integrity="sha512-35O/v2b9y+gtxy3HK+G3Ah60g1hGfrxv67nL6CJ/T56easDKE2TAukzxW+/WOLqyGE7cBg0FR2KhiTJYs+FKrw==" crossorigin="anonymous"></script>
-    <script src="./js/alt-alert.min.js"></script>
+    <script src="./js/alt-alert.js"></script>
     <script>
 
             function button1() {
-                console.log('bambang');
                 Alt.alternative({
                     title: 'Telah Di klik',
                     status: 'success'
