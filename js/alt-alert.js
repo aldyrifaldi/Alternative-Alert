@@ -133,12 +133,8 @@ class AltAlert {
             })
             // if warning, success or error
             if (status == 1) {  
-                let outsideClick
-                if (!data.outsideClick || data.outsideClick == false) {
-                    outsideClick = {backdrop: 'static', keyboard: false}    
-                }
 
-                $('#alert').modal(outsideClick)
+                $('#alert').modal()
             }
             // if loading
             else if (status == 0) {
